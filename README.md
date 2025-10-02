@@ -73,3 +73,11 @@ This repository is for educational purposes only. All content is copyrighted by 
 ---
 
 Happy debugging!
+
+1. **index.html errors**
+Error on index.html was missing the image/ to call the easter-bunny from the file images
+<!-- <img src="easter-bunny-150-profile.png"> -->
+      <img src="images/easter-bunny-150-profile.png"> 
+
+<!-- <h3>Enough Content -->
+            <h3>Enough Content</h3>      
