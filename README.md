@@ -80,4 +80,10 @@ Error on index.html was missing the image/ to call the easter-bunny from the fil
       <img src="images/easter-bunny-150-profile.png"> 
 
 <!-- <h3>Enough Content -->
-            <h3>Enough Content</h3>      
+            <h3>Enough Content</h3>   
+
+
+2. **style.css**
+
+/*text-decoration: none;*/ 
+	text-decoration: underline;               

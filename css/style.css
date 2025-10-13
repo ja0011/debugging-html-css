@@ -30,7 +30,8 @@ header img {
 footer {
 	text-align: center;
 	background-color: #092834;
-	color: #B2;
+	color: #B2D732;
+	/*color: #B2;*/ /*fix footer words*/
 	clear: both;
 }
 
@@ -40,7 +41,7 @@ footer h2 {
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 5 vw;
+	font-size: 5vw; /*font-size: 5 vw;    no space, will resize*/ 
 	color: #B2D732;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
@@ -63,7 +64,7 @@ h3 {
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.35me;
+	line-height: 1.35em; /*me is backwards, fixes spacing, 1.35me*/ 
 	margin-top: 1em;
 }
 
@@ -82,7 +83,7 @@ ol {
 }
 
 .error {
-	color: #FE27122;
+	color: #FE2712; /*too many 2's, #FE27122;*/
 }
 
 a {
@@ -91,10 +92,11 @@ a {
 
 a:hover {
 	color: #2E6C85;
-	text-decoration: all;
+	text-decoration: underline; /*text-decoration: all;, change to underline, for proper underline*/
 }
 
 a:visited {
 	color: #FE2712;
-	text-decoration: none;
+	/*text-decoration: none;*/ 
+	text-decoration: underline;
 }
