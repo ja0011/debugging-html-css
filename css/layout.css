@@ -102,14 +102,20 @@ footer {
     float: left;
     display: block;
     color: #c04402;
-    text-align: center;
+    /* FIX: Align nav link text to the left like the reference image */
+    /* OLD (wrong): text-align: center; */
+    text-align: left;
     padding: 10px;
     text-decoration: none;
     font-size: 3vw;
   }
 
+  /* FIX: Ensure content sits below the nav and matches tablet placement */
+  /* OLD (partial): main { width: 100%; } */
   main {
     width: 100%;
+    float: none;   /* remove desktop float */
+    clear: both;   /* sit below nav bar */
   }
 
   .gallery-container {
