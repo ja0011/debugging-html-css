@@ -75,6 +75,17 @@ This repository is for educational purposes only. All content is copyrighted by 
 Happy debugging!
 
 1. **index.html errors**
+<!-- <html> added lang-->
+<html lang="en">
+
+Was missing 'lang="en>' which is used for telling the brower the page is in english
+
+2. **index.html errors**
+
+
+
+
+
 Error on index.html was missing the image/ to call the easter-bunny from the file images
 <!-- <img src="easter-bunny-150-profile.png"> -->
       <img src="images/easter-bunny-150-profile.png"> 
