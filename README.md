@@ -75,12 +75,50 @@ This repository is for educational purposes only. All content is copyrighted by 
 Happy debugging!
 
 1. **index.html errors**
+
 <!-- <html> added lang-->
 <html lang="en">
 
 Was missing 'lang="en>' which is used for telling the brower the page is in english
 
 2. **index.html errors**
+
+<!--<meta>-->
+    <meta charset="UTF-8">
+
+add charset="UTF-8"> to the meta tag so that it can correctly display text
+
+3. **index.html errors**
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />. removed/-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+removed the / at the end becauses it's uselesss
+
+4. **index.html errors**
+
+<!-- <img src="easter-bunny-150-profile.png"> -->
+      <img src="images/easter-bunny-150-profile.png" alt="Easter Bunny profile picture">
+
+add images/ to the front of easter so that it could pull the image from the folder as well alt which is for text description 
+
+5. **index.html errors**
+<!-- <h3>Enough Content -->
+            <h3>Enough Content</h3>
+
+was missig the h3 tag to close it
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
