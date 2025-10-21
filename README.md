@@ -111,6 +111,47 @@ was missig the h3 tag to close it
 
 
 
+1. **layout.css errors**
+
+<!--
+aside {
+  position: relative;
+  padding: 8px 16px;
+  margin: 0;
+  width: 20vw;
+  height: auto;
+  float: right;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  padding: 0 10px;
+  }
+}
+
+*/ -->
+
+aside {
+  position: relative;
+  padding: 8px 16px;
+  margin: 0;
+  width: 20vw;
+  height: auto;
+  float: right;
+}
+
+aside dt {
+  font-weight: bold;
+}
+
+aside dd {
+  padding: 0 10px;
+}
+
+missing aside which display the box as well there was an extra curly bracket
 
 
 
@@ -119,20 +160,38 @@ was missig the h3 tag to close it
 
 
 
+1. **style.css errors** 
 
+<!--/*color: #B2;*/  -->
+      color: #B2D732;
 
+   fix color
 
+2. **style.css errors** 
 
+font-size: 5vw; 
+<!--font-size: 5 vw;  -->
 
-Error on index.html was missing the image/ to call the easter-bunny from the file images
-<!-- <img src="easter-bunny-150-profile.png"> -->
-      <img src="images/easter-bunny-150-profile.png"> 
+ no space between 5 & v, will resize
 
-<!-- <h3>Enough Content -->
-            <h3>Enough Content</h3>   
+3. **style.css errors** 
 
+line-height: 1.35em; 
+<!--line-height: 1.35me;-->
 
-2. **style.css**
+me is backwards fixes spacing
 
-/*text-decoration: none;*/ 
-	text-decoration: underline;               
+4. **style.css errors** 
+<!--color: #FE2712; -->
+ #FE27122;
+
+ too many 2's,
+
+5. **style.css errors**  
+
+<!--*text-decoration: all;
+-->
+
+text-decoration: underline; 
+
+change to underline, for proper underline
