@@ -104,16 +104,15 @@ footer {
     float: left;
     display: block;
     color: #c04402;
-    /* FIX: Align nav link text to the left like the reference image */
-    /* OLD (wrong): text-align: center; */
+    /*Align nav link text to the left like the reference image */
+    /*text-align: center; */
     text-align: left;
     padding: 10px;
     text-decoration: none;
     font-size: 3vw;
   }
 
-  /* FIX: Ensure content sits below the nav and matches tablet placement */
-  /* OLD (partial): main { width: 100%; } */
+
   main {
     width: 100%;
     float: none;   /* remove desktop float */
@@ -122,17 +121,6 @@ footer {
 
   .gallery-container {
     width: 46vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
-    display: block;
   }
 }
 

@@ -153,11 +153,35 @@ aside dd {
 
 missing aside which display the box as well there was an extra curly bracket
 
+2. **layout.css errors**
 
+Align nav link text to the left like the reference image
+    <!--OLD (wrong): text-align: center; *-->
+   
+   text-align: left;
+   
+3. **layout.css errors**
+    width: 100%;
+    float: none;   
+    clear: both;
 
+    <!-- width: 100%;-->   
 
+remove desktop float & sit below nav bar
 
+4. **layout.css errors**
 
+<!--@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}-->
+ duplicate
 
 
 1. **style.css errors** 
